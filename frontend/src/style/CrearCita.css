@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  h2{
+    text-align: center;
+    color: #6A625A;
+  }
+  
+  
+  .form-register {
+    width: 400px;
+    padding: 30px;
+    margin-left: 360px;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: #6A625A;
+    position: absolute;
+  }
+  
+  
+
+  .form-register3 {
+    position: fixed;
+
+    right: 5px;
+    width: 400px;
+    padding: 30px;
+    margin-right: 360px;
+    margin-top: 190px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: #6A625A;
+
+  }
+  
+
+  .controls {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #6A625A;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: #6A625A;
+  }
+
+
+  
+  .form-register2 .boton1 {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 12px;
+    color: #6A625A;
+    margin: 16px 0;
+    font-size: 16px;
+    font-family: regular;
+
+  }
+
+  .form-register2 .boton2 {
+    
+    background: #6A625A;
+    border-radius: 15px;
+    padding: 12px;
+    color: white;
+    margin-left: 75px;
+    font-size: 16px;    
+  }
+
+  .form-register2 {
+    width: 400px;
+    padding: 30px;  }
+
+  label{
+    color: #6A625A;
+  }
+
+  
+
+
+
+
+
+  .calendar{
+    padding: 20px;
+  }
+  .calendar ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+  }
+  .calendar .days{
+    margin-bottom: 20px;
+  }
+  .calendar li{
+    color: #333;
+    width: calc(100% / 7);
+    font-size: 1.07rem;
+  }
+  .calendar .weeks li{
+    font-weight: 500;
+    cursor: default;
+  }
+  .calendar .days li{
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+    margin-top: 30px;
+  }
+  .days li.inactive{
+    color: #aaa;
+  }
+  .days li.active{
+    color: #ffffff;
+  }
+  .days li::before{
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    z-index: -1;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .days li.active::before{
+    background: #6A625A;
+  }
+  .days li:not(.active):hover::before{
+    background: #f2f2f2;
+  }

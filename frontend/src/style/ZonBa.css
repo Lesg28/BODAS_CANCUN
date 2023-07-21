@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer {
+  background-color: #6A625A;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  margin-top: 90px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Alineación vertical de los textos */
+}
+
+.left-section,
+.center-section,
+.right-section {
+  flex: 40;
+
+}
+
+.left-section {
+  text-align: left;
+  line-height: 3.5;
+}
+
+.center-section {
+  text-align: center;
+}
+
+.right-section {
+  text-align: right;
+}
+
+  
