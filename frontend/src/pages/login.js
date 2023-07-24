@@ -27,7 +27,7 @@ export default function Login() {
             Contraseña
           </label>
           <input
-            type="text"
+            type="password"
             id="formGroupExampleInput"
             className="w-96 border-2 border-[#6A625A] rounded-full text-center"
           />

@@ -1,4 +1,5 @@
 import EntradaInf from '../components/entradaInf'
+import Password from '../components/password'
 import ramo from '../image/flores.png'
 export default function Registro (){
     return(
@@ -17,11 +18,11 @@ export default function Registro (){
         dato='Correo electrónico'
         />
         <br />
-        <EntradaInf 
+        <Password 
         dato='Contraseña'
         />
         <br />
-        <EntradaInf
+        <Password
         dato='Confirmar contraseña'
         />
         <br/>
@@ -32,7 +33,7 @@ export default function Registro (){
               </a>
             </div>
             <div className="text-center ml-[10%] bg-[#6A625A] text-white border border-[#6A625A] w-[28%] py-1 mr-[30%] cursor-pointer rounded-full hover:bg-white hover:text-black">
-              <a href="/mi-perfil" class="custom-button">
+              <a href="/pasarela" class="custom-button">
                 Entrar
               </a>
             </div>
@@ -48,7 +49,7 @@ export default function Registro (){
           />
           <br />
           <EntradaInf
-          dato='País'
+          dato='Estado'
           />
           <br/>
           <br/>

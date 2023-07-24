@@ -1,4 +1,5 @@
 import Footer from "../components/footer";
+import CardRegresar from "../components/regresar";
 
 export default function Actividades() {
   return (
@@ -56,6 +57,9 @@ export default function Actividades() {
       <br/>
       <br/>
       <br/>
+      <CardRegresar
+      dato='Regresar'
+      />
       <br/>
       <br/>
         <Footer/>

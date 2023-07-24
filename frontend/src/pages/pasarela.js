@@ -1,5 +1,6 @@
 import mercado from '../image/Mercado.png';
 import Footer from '../components/footer';
+import CardRegresar from "../components/regresar";
 
 export default function Pasarela () {
     return (
@@ -40,6 +41,15 @@ export default function Pasarela () {
           </div>
         </div>
       </div>
+      <br/>
+      <br/>
+      <div className="mr-10">
+        <div className="text-center ml-[89%] bg-[#6A625A]  text-white border border-[#6A625A] py-1 px-2 cursor-pointer rounded-full hover:bg-white hover:text-black">
+            <a href="/inicioPlanner" class="custom-button">
+              Regresar
+            </a>
+          </div>
+          </div>
       <br/>
       <br/>
       <Footer/>

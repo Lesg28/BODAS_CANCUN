@@ -1,4 +1,5 @@
 import Footer from "../components/footer";
+import CardRegresar from "../components/regresar";
 
 export default function Proveedores (){
     return(
@@ -19,18 +20,6 @@ export default function Proveedores (){
               id="nombre_proveedor"
               type="text"
               placeholder="Ingrese proveedor"
-            />
-          </div>
-          <div className="mb-4">
-            <label
-              className="block text-gray-700 font-semibold mb-2 text-xl"
-            >Articulos que provee
-            </label>
-            <input
-              className="border rounded-2xl border-b-[#6A625A] border-x-[#6A625A] border-y-[#6A625A] hover:bg-[#f8f0e7] w-full py-2 px-3 text-black  outline-none "
-              id="articulos_provee"
-              type="text"
-              placeholder="Ingrese el articulo"
             />
           </div>
           <div className="mb-4">
@@ -61,7 +50,6 @@ export default function Proveedores (){
                 <tr className="font-semibold">
                   <th class="h-5 w-[4%] mr-3 border px-3 py-3 border-[#6A625A]">#</th>
                   <th class="h-5 w-[20%] mr-5 border px-3 py-3 border-[#6A625A]">Nombre Proveedor</th>
-                  <th class="h-5 w-[20%] mr-5 border px-2 py-2 border-[#6A625A]">Articulos</th>
                   <th class="h-5 w-[12%] mr-5 border px-2 py-2 border-[#6A625A]">Contacto</th>
                 </tr>
               </thead>
@@ -69,7 +57,6 @@ export default function Proveedores (){
                 <tr>
                   <td className="border px-3 py-3 border-[#6A625A]">1</td>
                   <td className="border px-3 py-3 border-[#6A625A]">Isai Trujillo Mendoza</td>
-                  <td className="border px-3 py-3 border-[#6A625A]">Mesas de cedro</td>
                   <td className="border px-3 py-3 border-[#6A625A]">9989324512</td>
                 </tr>
               </tbody>
@@ -77,6 +64,9 @@ export default function Proveedores (){
           </div>
         </div>
       </div>
+      <CardRegresar
+            dato='Regresar'
+            />
       <br/>
         <Footer/>
     </>

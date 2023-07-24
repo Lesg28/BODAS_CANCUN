@@ -1,4 +1,5 @@
 import Footer from "../components/footer";
+import CardRegresar from "../components/regresar";
 
 export default function Catalogo (){
     return(
@@ -23,7 +24,7 @@ export default function Catalogo (){
               className="border rounded-2xl border-b-[#6A625A] border-x-[#6A625A] border-y-[#6A625A] hover:bg-[#977a5d] w-full py-2 px-3 text-white  outline-none "
               id="proveedor"
               type="text"
-              placeholder="Ingrese proveedor"
+              placeholder="Seleccione proveedor"
             />
           </div>
           <div className="mb-4">
@@ -67,6 +68,9 @@ export default function Catalogo (){
           </div>
         </div>
       </div>
+      <CardRegresar
+            dato='Regresar'
+            />
       <br/>
         <Footer/>
     </>

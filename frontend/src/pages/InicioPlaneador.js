@@ -19,6 +19,15 @@ export default function InicioPlaneador (){
             min='32'
             seg='54'
             />
+            <br/>
+            <br/>
+
+<div className="text-center ml-[30%] mr-[30%] bg-[#faeca0]  text-black border border-[#faeca0] py-1 px-2 cursor-pointer rounded-full hover:bg-white hover:text-black">
+            <a href="/" class="custom-button">
+              Cerrar Sesión
+            </a>
+          </div>
+
             </div>
           </div>
         <Footer/>
